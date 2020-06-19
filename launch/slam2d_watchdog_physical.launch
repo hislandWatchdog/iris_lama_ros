@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <node pkg="iris_lama_ros" name="slam2d_ros" type="slam2d_ros" output="screen" required="true">
+  <node pkg="iris_lama_ros" name="slam2d_ros_physical" type="slam2d_ros" output="screen" required="true">
     <param name="global_frame_id" value="map" />
     <param name="odom_frame_id" value="odom" />
     <param name="base_frame_id" value="base_footprint" />

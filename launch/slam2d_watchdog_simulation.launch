@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <node pkg="iris_lama_ros" name="slam2d_ros" type="slam2d_ros" output="screen" required="true">
+    <node pkg="iris_lama_ros" name="slam2d_ros_simulation" type="slam2d_ros" output="screen" required="true">
 	<param name="map_publish_period" value="0.2" />
 	<param name="d_thresh" value="0.002" />
 	<param name="a_thresh" value="0.1" />
